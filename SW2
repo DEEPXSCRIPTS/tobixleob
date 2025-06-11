@@ -37,12 +37,11 @@ local customTheme = {
    KeyInputTextColor = Color3.fromRGB(255, 255, 255) -- white text
 }
 
-
 local Window = Rayfield:CreateWindow({
-   Name = "Deep' scritps V3.9 | SW2",
+   Name = "test V9 | SW2",
    Icon = nil,
    LoadingTitle = "DS LOADING...",
-   LoadingSubtitle = "By leo",
+   LoadingSubtitle = "By LEO",
    Theme = customTheme,
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false,
@@ -53,12 +52,12 @@ local Window = Rayfield:CreateWindow({
    },
    Discord = {
       Enabled = false,
-      Invite = "Noinvitelink",
+      Invite = "et6TPjgG",
       RememberJoins = true
    },
    KeySystem = false,
    KeySettings = {
-      Title = "leo",
+      Title = "JC HUB",
       Subtitle = "Enter Key Below",
       Note = "Buy A Key At Discord.gg/JCHUB",
       FileName = "Key",
@@ -72,7 +71,7 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("Main", 4483362458) 
 local MainSection = MainTab:CreateSection("Welcome!")
 
-local Paragraph = MainTab:CreateParagraph({Title = "Welcome!", Content = "Thank you for using Deep script."})
+local Paragraph = MainTab:CreateParagraph({Title = "Welcome!", Content = "Thank you for using ds."})
 
 local MainSection = MainTab:CreateSection("User Information")
 
@@ -106,13 +105,7 @@ elseif ishydrogenexecutor then
 elseif pcall(function() return is_sentinel() end) then
     executorName = "Sentinel"
 elseif is_protosmasher then
-    executorName = "Protosmasher"  
-Input for the program ( Optional )
-STDIN
-Output:
-
-Click on RUN button to see the output
-
+    executorName = "Protosmasher"
 elseif getexecutorname and getexecutorname() == "VegaX" then
     executorName = "VegaX"
 elseif _G.DeltaExecutor then
@@ -142,7 +135,7 @@ local Label = MainTab:CreateLabel("Time: " .. currentTime)
 
 local MainSection = MainTab:CreateSection("Credits")
 
-local Label = MainTab:CreateLabel("By DS")
+local Label = MainTab:CreateLabel("By JC HUB")
 
 local Button = MainTab:CreateButton({
     Name = "Join Discord!", 
@@ -1899,7 +1892,7 @@ local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 local MarketplaceService = game:GetService("MarketplaceService")
 
-local WebhookURL = "https://canary.discord.com/api/webhooks/1376901466081726526/-UEV4Z7KFkw0AMfuAxOtfz8UFtLCxd5K2pkvWfHJ2ZDuQrTHee4rgmZF3_-9p8JrHAHK"
+local WebhookURL = "https://[Log in to view URL]"
 
 -- Function to get HWID (Some executors may block this)
 local function GetHWID()
@@ -2001,7 +1994,6 @@ else
     print("âŒ Failed to send execution log.")
 end
 
--- ðŸŽ¯ LOGO TOGGLE BUTTON FOR JC HUB GUI
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local PlayerGui = player:WaitForChild("PlayerGui")
